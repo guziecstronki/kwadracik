@@ -1,0 +1,137 @@
+body{
+    background-color: lightblue;
+}
+main{
+    width: 60%;
+    float: left;
+}
+nav{
+    width: 20%;
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+}
+.grid{
+    width: 618px;
+    width: 618px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 1px;
+}
+
+
+.mark{
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+}
+.mark:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: rgb(238, 238, 0);
+    transition: 0.3s ease-in-out; 
+}
+.green {
+    background-color: rgb(1, 192, 1);
+    transition: 0.3s ease-in-out; 
+}
+.red {
+    background-color: rgb(240, 55, 55);
+    transition: 0.3s ease-in-out; 
+}
+.blue {
+    background-color: rgb(0, 110, 255);
+    transition: 0.3s ease-in-out; 
+}
+.default{
+    background-color: rgb(0, 157, 255);
+    transition: 0.3s ease-in-out; 
+}
+.square.mark:hover {
+    filter: brightness(1.2);
+}
+.darkSquare{
+    background-color: #666666;
+}
+.info{
+    margin: auto auto;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+#darkMode{
+    width: 100px;
+    height: 50px;
+}
+.button{    
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+}
+.skin{
+    display: none;
+}
+label{
+    border: 2px solid black;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    padding: 25px;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 3px 3px 7px rgba(66, 68, 90, 1);
+    transition: 0.3s; 
+    box-shadow: 3px 3px 7px rgba(66, 68, 90, 1);;
+}
+label:hover{
+    filter: brightness(1.1);
+    transform: scale(1.02);
+}
+#dark{
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    box-shadow: none;
+}
+#ly{
+    background-color: rgb(238, 238, 0);
+    text-align: center;
+}
+#lr{
+    background-color: rgb(240, 55, 55);
+}
+#lg{
+    background-color: rgb(1, 192, 1);
+}
+#lb{
+    background-color: rgb(0, 110, 255);
+}
+#ld{
+    background-color: rgb(0, 157, 255);
+}
+#plus{
+    background-color: white;
+    height: 25px;
+    width: 50px;
+}
+#minus{
+    background-color: white;
+    height: 25px;
+    width: 50px;
+}
